@@ -2,15 +2,53 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 8rem;
+    height: 30rem;
     font-size: .6rem;
-    text-align: center;
+    display: flex;
+        flex-direction: column;
+        justify-content: space-around;
     background-color: $accent-blue-dark;
     color: $button-accent-grey-light !important;
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+    #sitemap {
+        align-self: flex-start;
+    }
+    
+    #social-links-container {
+        align-self: flex-start;
+        
+        iconify-icon, h1 {
+            color: $button-accent-grey-light;
+        }
+    }
+
+    #email-input-container {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        label {
+            color: $font-accent-grey-light;
+        }
+
+        button { 
+            position: absolute;
+            right: 0;
+            bottom: 0;
+        }
+    }
+
+    #author-container {
+        display: flex;
+        justify-content: center;
+    }
 
     p {
         color: $button-accent-grey-light;
-
+        position: absolute;
+        bottom: .5rem;
+        text-align: center;
     }
 
     a {

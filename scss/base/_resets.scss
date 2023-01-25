@@ -7,3 +7,9 @@
     font-family: $poppins;
     color: $font-main-dark-black;
 }
+
+body {
+    position: relative;
+    padding-bottom: 3rem;
+    height: 100vh;
+}

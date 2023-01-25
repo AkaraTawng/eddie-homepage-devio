@@ -2,15 +2,20 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 3rem;
+    height: 8rem;
     font-size: .6rem;
     text-align: center;
+    background-color: $accent-blue-dark;
+    color: $button-accent-grey-light !important;
 
     p {
+        color: $button-accent-grey-light;
 
     }
 
     a {
+        color: $button-accent-grey-light;
+        font-weight: 600;
 
     }
 }

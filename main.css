@@ -46,6 +46,7 @@ footer #email-input-container {
 }
 footer #email-input-container label {
   color: #828282;
+  padding-bottom: 2%;
 }
 footer #email-input-container button {
   position: absolute;

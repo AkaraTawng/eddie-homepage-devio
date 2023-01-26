@@ -38,6 +38,21 @@ footer #email-input-container {
   display: flex;
   position: relative;
   flex-direction: column;
+  width: 15rem;
+}
+footer #email-input-container input {
+  height: 2rem;
+  border-radius: 7px;
+  padding-left: 0.5rem;
+}
+footer #email-input-container input::-moz-placeholder {
+  margin-left: 2rem;
+}
+footer #email-input-container input:-ms-input-placeholder {
+  margin-left: 2rem;
+}
+footer #email-input-container input::placeholder {
+  margin-left: 2rem;
 }
 footer #email-input-container label {
   color: #828282;

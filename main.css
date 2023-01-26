@@ -73,6 +73,12 @@ footer p {
   bottom: 0.5rem;
   text-align: center;
 }
+footer #sitemap ul {
+  list-style-type: none;
+}
+footer #sitemap ul a {
+  text-decoration: none;
+}
 
 footer {
   font-size: 0.6rem;

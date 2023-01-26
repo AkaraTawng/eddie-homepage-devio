@@ -25,7 +25,6 @@ footer {
   flex-direction: column;
   justify-content: space-around;
   background-color: #100E1D;
-  color: #f2f2f2 !important;
   padding-left: 2rem;
   padding-right: 2rem;
 }
@@ -34,9 +33,6 @@ footer #sitemap {
 }
 footer #social-links-container {
   align-self: flex-start;
-}
-footer #social-links-container iconify-icon, footer #social-links-container h1 {
-  color: #f2f2f2;
 }
 footer #email-input-container {
   display: flex;
@@ -57,16 +53,26 @@ footer #author-container {
   justify-content: center;
 }
 footer p {
-  color: #f2f2f2;
   position: absolute;
   bottom: 0.5rem;
+  text-align: center;
+}
+
+footer {
+  font-size: 0.6rem;
+  color: #f2f2f2;
+}
+footer #social-links-container iconify-icon, footer #social-links-container h1 {
+  color: #f2f2f2;
+}
+footer #email-input-container label {
+  color: #828282;
+}
+footer p {
+  color: #f2f2f2;
   text-align: center;
 }
 footer a {
   color: #f2f2f2;
   font-weight: 600;
-}
-
-footer {
-  font-size: 0.6rem;
 }/*# sourceMappingURL=main.css.map */

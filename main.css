@@ -33,11 +33,17 @@ footer #sitemap {
 footer #social-links-container {
   align-self: flex-start;
 }
+footer #social-links-container #instagram:hover {
+  transform: scale(1.2);
+}
+footer #social-links-container #twitter:hover {
+  transform: scale(1.2);
+}
+footer #social-links-container #linkedin:hover {
+  transform: scale(1.2);
+}
 footer #social-links-container iconify-icon {
   font-size: 1.2rem;
-}
-footer #social-links-container iconify-icon #instagram {
-  font-size: 0.8rem;
 }
 footer #email-input-container {
   display: flex;

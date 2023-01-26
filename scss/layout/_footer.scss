@@ -16,13 +16,26 @@ footer {
     
     #social-links-container {
         align-self: flex-start;
+    
+        #instagram:hover {
+                    transform: scale(1.2);
+                    
+                }
+    
+        #twitter:hover  {
+            transform: scale(1.2);
+                }
+    
+        #linkedin:hover  {
+            transform: scale(1.2);
+         
+           }
 
         iconify-icon {
         font-size: 1.2rem;
-            #instagram {
-                font-size: .8rem;
-            }
+
            
+      
         }
     }
 

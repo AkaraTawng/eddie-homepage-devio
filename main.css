@@ -76,6 +76,11 @@ footer p {
 footer #sitemap ul {
   list-style-type: none;
 }
+footer #sitemap ul li:hover {
+  border-left: 2px solid white;
+  transition: padding-left ease 0.3s;
+  padding-left: 0.5rem;
+}
 footer #sitemap ul a {
   text-decoration: none;
 }

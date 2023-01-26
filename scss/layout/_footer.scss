@@ -66,6 +66,14 @@ footer {
     #sitemap {
         ul {
            list-style-type: none;
+
+           li {
+            &:hover {
+                border-left: 2px solid white;
+                transition: padding-left ease .3s;
+                padding-left: .5rem;
+            }
+           }
            a {
             text-decoration: none;
            }

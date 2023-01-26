@@ -1,6 +1,5 @@
 footer {
     font-size: .6rem;
-    color: $button-accent-grey-light;
 
      
     #social-links-container {
@@ -9,7 +8,7 @@ footer {
         }
     }
 
-    #email-input-container {
+    #email-contact-container {
         label {
             color: $font-accent-grey-light;
         }
@@ -23,6 +22,11 @@ footer {
     a {
         color: $button-accent-grey-light;
         font-weight: 600;
+    }
+
+    button {
+        color: white;
+        font-size: .8rem;
     }
 
 }

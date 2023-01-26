@@ -5,7 +5,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-  color: #333333;
 }
 
 body {
@@ -38,10 +37,12 @@ footer #email-input-container {
   display: flex;
   position: relative;
   flex-direction: column;
+  margin-top: 0.4rem;
+  justify-content: center;
   width: 15rem;
 }
 footer #email-input-container input {
-  height: 2rem;
+  height: 2.2rem;
   border-radius: 7px;
   padding-left: 0.5rem;
 }
@@ -54,14 +55,14 @@ footer #email-input-container input:-ms-input-placeholder {
 footer #email-input-container input::placeholder {
   margin-left: 2rem;
 }
-footer #email-input-container label {
-  color: #828282;
-  padding-bottom: 0.2rem;
-}
 footer #email-input-container button {
   position: absolute;
   right: 0;
-  bottom: 0;
+  background-color: #2D9CDB;
+  height: 1.8rem;
+  width: 4rem;
+  border-radius: 10px;
+  margin-right: 0.2rem;
 }
 footer #author-container {
   display: flex;
@@ -75,12 +76,11 @@ footer p {
 
 footer {
   font-size: 0.6rem;
-  color: #f2f2f2;
 }
 footer #social-links-container iconify-icon, footer #social-links-container h1 {
   color: #f2f2f2;
 }
-footer #email-input-container label {
+footer #email-contact-container label {
   color: #828282;
 }
 footer p {
@@ -90,4 +90,8 @@ footer p {
 footer a {
   color: #f2f2f2;
   font-weight: 600;
+}
+footer button {
+  color: white;
+  font-size: 0.8rem;
 }/*# sourceMappingURL=main.css.map */

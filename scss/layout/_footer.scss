@@ -18,14 +18,21 @@ footer {
         align-self: flex-start;
     }
 
+    #email-contact-container {
+      
+    }
+
     #email-input-container {
         display: flex;
         position: relative;
         flex-direction: column;
+        // align-items: center;
+        margin-top: .4rem;
+        justify-content: center;
         width: 15rem;
 
         input {
-            height: 2rem;
+            height: 2.2rem;
             border-radius: 7px;
             padding-left: .5rem;
 
@@ -34,15 +41,14 @@ footer {
             }
         }
 
-        label {
-            color: $font-accent-grey-light;
-            padding-bottom: .2rem;
-        }
-
         button { 
             position: absolute;
             right: 0;
-            bottom: 0;
+            background-color: $button-blue;
+            height: 1.8rem;
+            width: 4rem;
+            border-radius: 10px;
+            margin-right: .2rem;
         }
     }
 

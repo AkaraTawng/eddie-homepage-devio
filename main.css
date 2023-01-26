@@ -33,6 +33,12 @@ footer #sitemap {
 footer #social-links-container {
   align-self: flex-start;
 }
+footer #social-links-container iconify-icon {
+  font-size: 1.2rem;
+}
+footer #social-links-container iconify-icon #instagram {
+  font-size: 0.8rem;
+}
 footer #email-input-container {
   display: flex;
   position: relative;

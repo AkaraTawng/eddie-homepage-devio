@@ -100,4 +100,7 @@ footer a {
 footer button {
   color: white;
   font-size: 0.8rem;
+}
+footer #sitemap ul a {
+  font-weight: 400;
 }/*# sourceMappingURL=main.css.map */

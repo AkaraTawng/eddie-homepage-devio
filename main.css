@@ -49,6 +49,9 @@ footer #social-links-container #linkedin:hover {
 footer #social-links-container iconify-icon {
   font-size: 1.2rem;
 }
+footer #email-contact-container {
+  margin: 0 auto;
+}
 footer #email-input-container {
   display: flex;
   position: relative;
@@ -56,11 +59,6 @@ footer #email-input-container {
   margin-top: 0.4rem;
   justify-content: center;
   width: 15rem;
-}
-@media screen and (min-width: 768px) {
-  footer #email-input-container {
-    align-items: center;
-  }
 }
 footer #email-input-container input {
   height: 2.4rem;

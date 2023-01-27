@@ -1,3 +1,5 @@
+@import '../utilities/mixins';
+
 footer {
     position: absolute;
     bottom: 0;
@@ -47,6 +49,12 @@ footer {
     }
 
     #email-contact-container {
+        margin: 0 auto;
+        // @include tablet {
+        //     align-items: center;
+        //     background-color: orange;
+        //     margin: 0 auto;
+        // }
       
     }
 
@@ -58,6 +66,7 @@ footer {
         margin-top: .4rem;
         justify-content: center;
         width: 15rem;
+
 
         input {
             height: 2.4rem;

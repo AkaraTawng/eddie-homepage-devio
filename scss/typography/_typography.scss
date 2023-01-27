@@ -29,6 +29,14 @@ footer {
         }
     }
 
+    #email-input-container {
+   
+       input::placeholder  {
+            font-size: .7rem;
+            color: $button-font-light-grey;
+        }
+    }
+
     p {
         color: $button-accent-grey-light;
         text-align: center;

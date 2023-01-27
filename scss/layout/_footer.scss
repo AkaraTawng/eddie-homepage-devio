@@ -60,21 +60,19 @@ footer {
         width: 15rem;
 
         input {
-            height: 2.2rem;
+            height: 2.4rem;
             border-radius: 7px;
-            padding-left: .5rem;
+            padding-left: 1rem;
 
-            &::placeholder {
-                margin-left: 2rem;
-            }
+          
         }
 
         button { 
             position: absolute;
             right: 0;
             background-color: $button-blue;
-            height: 1.8rem;
-            width: 4rem;
+            height: 2.2rem;
+            width: 4.2rem;
             border-radius: 10px;
             margin-right: .2rem;
         }

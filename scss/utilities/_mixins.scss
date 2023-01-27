@@ -8,37 +8,37 @@ $breakpoints: (
 );
 
 @mixin mobile-m {
-    @media screen and (min-width: map-get(mobile-m)){
+    @media screen and (min-width: map-get($breakpoints, "mobile-m")){
         @content;
     };
 };
 
 @mixin mobile-l {
-    @media screen and (min-width: map-get(mobile-l)){
+    @media screen and (min-width: map-get($breakpoints, "mobile-l")){
         @content;
     };
 };
 
 @mixin tablet {
-    @media screen and (min-width: map-get(tablet)){
+    @media screen and (min-width: map-get($breakpoints, "tablet")){
         @content;
     };
 };
 
 @mixin laptop {
-    @media screen and (min-width: map-get(laptop)){
+    @media screen and (min-width: map-get($breakpoints, "laptop")){
         @content;
     };
 };
 
 @mixin desktop-m {
-    @media screen and (min-width: map-get(desktop-m)){
+    @media screen and (min-width: map-get($breakpoints, "desktop-m")){
         @content;
     };
 };
 
 @mixin desktop-lg {
-    @media screen and (min-width: map-get(desktop-lg)){
+    @media screen and (min-width: map-get($breakpoints, "desktop-lg")){
         @content;
     };
 };

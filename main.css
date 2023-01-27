@@ -57,6 +57,11 @@ footer #email-input-container {
   justify-content: center;
   width: 15rem;
 }
+@media screen and (min-width: 768px) {
+  footer #email-input-container {
+    align-items: center;
+  }
+}
 footer #email-input-container input {
   height: 2.4rem;
   border-radius: 7px;

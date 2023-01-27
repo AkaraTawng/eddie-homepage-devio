@@ -15,6 +15,11 @@ footer {
 
         iconify-icon {
             margin-left: .3rem;
+            color: darken($button-accent-grey-light, 50%);
+
+            &:hover {
+                color: $button-accent-grey-light;
+            }
         }
     }
 

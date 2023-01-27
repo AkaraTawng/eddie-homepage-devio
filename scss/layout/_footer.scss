@@ -16,19 +16,26 @@ footer {
     
     #social-links-container {
         align-self: flex-start;
+
+        iconify-icon:hover {
+            transform: scale(1.2);
+            margin-right: .2em;
+            border-left: 2px solid white;
+            padding-left: .3rem;
+            transition: all ease .4s;
+        }
     
-        #instagram:hover {
-                    transform: scale(1.2);
+        // #instagram:hover {
+                  
                     
-                }
+        //         }
     
         #twitter:hover  {
-            transform: scale(1.2);
+            margin-left: .6rem;
                 }
     
         #linkedin:hover  {
-            transform: scale(1.2);
-         
+            margin-left: .6rem;
            }
 
         iconify-icon {

@@ -33,14 +33,18 @@ footer #sitemap {
 footer #social-links-container {
   align-self: flex-start;
 }
-footer #social-links-container #instagram:hover {
+footer #social-links-container iconify-icon:hover {
   transform: scale(1.2);
+  margin-right: 0.2em;
+  border-left: 2px solid white;
+  padding-left: 0.3rem;
+  transition: all ease 0.4s;
 }
 footer #social-links-container #twitter:hover {
-  transform: scale(1.2);
+  margin-left: 0.6rem;
 }
 footer #social-links-container #linkedin:hover {
-  transform: scale(1.2);
+  margin-left: 0.6rem;
 }
 footer #social-links-container iconify-icon {
   font-size: 1.2rem;
@@ -108,6 +112,10 @@ footer #social-links-container h1 {
 }
 footer #social-links-container iconify-icon {
   margin-left: 0.3rem;
+  color: #737373;
+}
+footer #social-links-container iconify-icon:hover {
+  color: #f2f2f2;
 }
 footer #email-contact-container label {
   color: #828282;

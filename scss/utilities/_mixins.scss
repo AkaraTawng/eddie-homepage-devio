@@ -1,0 +1,44 @@
+$breakpoints: (
+    "mobile-m": 400px,
+    "mobile-l": 480px,
+    "tablet": 768px,
+    "laptop": 1280px,
+    "desktop-m": 1530px,
+    "desktop-lg": 1920px,
+);
+
+@mixin mobile-m {
+    @media screen and (min-width: map-get(mobile-m)){
+        @content;
+    };
+};
+
+@mixin mobile-l {
+    @media screen and (min-width: map-get(mobile-l)){
+        @content;
+    };
+};
+
+@mixin tablet {
+    @media screen and (min-width: map-get(tablet)){
+        @content;
+    };
+};
+
+@mixin laptop {
+    @media screen and (min-width: map-get(laptop)){
+        @content;
+    };
+};
+
+@mixin desktop-m {
+    @media screen and (min-width: map-get(desktop-m)){
+        @content;
+    };
+};
+
+@mixin desktop-lg {
+    @media screen and (min-width: map-get(desktop-lg)){
+        @content;
+    };
+};

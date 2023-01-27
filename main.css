@@ -71,6 +71,10 @@ footer #email-input-container button {
   border-radius: 10px;
   margin-right: 0.2rem;
 }
+footer #email-input-container button:hover {
+  background-color: #59b1e2;
+  cursor: pointer;
+}
 footer #author-container {
   display: flex;
   justify-content: center;

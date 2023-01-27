@@ -75,6 +75,11 @@ footer {
             width: 4.2rem;
             border-radius: 10px;
             margin-right: .2rem;
+
+            &:hover {
+                background-color: lighten($button-blue, 10%);
+                cursor: pointer;
+            }
         }
     }
 

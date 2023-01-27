@@ -3,8 +3,18 @@ footer {
 
      
     #social-links-container {
-        iconify-icon, h1 {
+        // background-color: orange;
+        // width: 5rem;
+        
+        h1 {
+            font-size: 1.6rem;
             color: $button-accent-grey-light;
+            margin-bottom: .5rem;
+            margin-left: .4rem;
+        }
+
+        iconify-icon {
+            margin-left: .3rem;
         }
     }
 

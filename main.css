@@ -100,8 +100,14 @@ footer #sitemap ul a {
 footer {
   font-size: 0.6rem;
 }
-footer #social-links-container iconify-icon, footer #social-links-container h1 {
+footer #social-links-container h1 {
+  font-size: 1.6rem;
   color: #f2f2f2;
+  margin-bottom: 0.5rem;
+  margin-left: 0.4rem;
+}
+footer #social-links-container iconify-icon {
+  margin-left: 0.3rem;
 }
 footer #email-contact-container label {
   color: #828282;

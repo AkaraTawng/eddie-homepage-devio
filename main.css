@@ -54,9 +54,6 @@ footer #social-links-container #twitter:hover {
 footer #social-links-container #linkedin:hover {
   margin-left: 0.6rem;
 }
-footer #social-links-container iconify-icon {
-  font-size: 1.2rem;
-}
 footer #email-contact-container {
   margin: 0 auto;
 }
@@ -124,6 +121,7 @@ footer #social-links-container h1 {
 footer #social-links-container iconify-icon {
   margin-left: 0.3rem;
   color: #737373;
+  font-size: 1.2rem;
 }
 footer #social-links-container iconify-icon:hover {
   color: #f2f2f2;
@@ -160,5 +158,5 @@ footer #sitemap ul {
 }
 footer #sitemap ul a {
   font-weight: 400;
-  font-size: 0.9rem;
+  font-size: clamp(0.9rem, 0.8rem + 0.5vw, 1.4rem);
 }/*# sourceMappingURL=main.css.map */

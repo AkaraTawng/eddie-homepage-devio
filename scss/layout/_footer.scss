@@ -26,11 +26,9 @@ footer {
     }
 
     #sitemap {
-        // align-self: flex-start;
     }
     
     #social-links-container {
-        // align-self: flex-start;
 
         iconify-icon:hover {
             transform: scale(1.2);
@@ -52,13 +50,6 @@ footer {
         #linkedin:hover  {
             margin-left: .6rem;
            }
-
-        iconify-icon {
-        font-size: 1.2rem;
-
-           
-      
-        }
     }
 
     #email-contact-container {
@@ -67,11 +58,6 @@ footer {
         @include laptop {
             margin: 0;
         }
-        // @include tablet {
-        //     align-items: center;
-        //     background-color: orange;
-        //     margin: 0 auto;
-        // }
       
     }
 
@@ -79,7 +65,6 @@ footer {
         display: flex;
         position: relative;
         flex-direction: column;
-        // align-items: center;
         margin-top: .4rem;
         justify-content: center;
         width: 15rem;

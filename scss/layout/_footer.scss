@@ -18,6 +18,7 @@ footer {
         justify-content: space-around;
         height: 90%;
         @include laptop {
+            margin-top: 3rem;
             flex-direction: row;
             justify-content: space-around;
             height: 50%;

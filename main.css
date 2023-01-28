@@ -35,6 +35,7 @@ footer #lg-screen-flex-container {
 }
 @media screen and (min-width: 1280px) {
   footer #lg-screen-flex-container {
+    margin-top: 3rem;
     flex-direction: row;
     justify-content: space-around;
     height: 50%;

@@ -27,11 +27,18 @@ footer {
   padding-left: 2rem;
   padding-right: 2rem;
 }
-footer #sitemap {
-  align-self: flex-start;
+footer #lg-screen-flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 90%;
 }
-footer #social-links-container {
-  align-self: flex-start;
+@media screen and (min-width: 1280px) {
+  footer #lg-screen-flex-container {
+    flex-direction: row;
+    justify-content: space-around;
+    height: 50%;
+  }
 }
 footer #social-links-container iconify-icon:hover {
   transform: scale(1.2);
@@ -51,6 +58,11 @@ footer #social-links-container iconify-icon {
 }
 footer #email-contact-container {
   margin: 0 auto;
+}
+@media screen and (min-width: 1280px) {
+  footer #email-contact-container {
+    margin: 0;
+  }
 }
 footer #email-input-container {
   display: flex;

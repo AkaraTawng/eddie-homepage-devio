@@ -68,12 +68,18 @@ footer {
         margin-top: .4rem;
         justify-content: center;
         width: 15rem;
+        @include laptop {
+            width: 23rem;
+        }
 
 
         input {
             height: 2.4rem;
             border-radius: 7px;
             padding-left: 1rem;
+            @include laptop {
+                height: 3rem;
+            }
 
           
         }

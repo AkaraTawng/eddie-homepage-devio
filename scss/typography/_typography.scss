@@ -7,6 +7,7 @@ footer {
         
         h1 {
             font-size: 1.6rem;
+            font-size: clamp(1.6rem, 1.42rem + 0.9vw, 2.5rem);
             color: $button-accent-grey-light;
             margin-bottom: .5rem;
             margin-left: .4rem;
@@ -16,6 +17,7 @@ footer {
             margin-left: .3rem;
             color: darken($button-accent-grey-light, 50%);
             font-size: 1.2rem;
+            font-size: clamp(1.2rem, 1.04rem + 0.8vw, 2rem);
 
             &:hover {
                 color: $button-accent-grey-light;
@@ -57,8 +59,7 @@ footer {
             line-height: 1.7rem;
            a {
             font-weight: 400;
-            // font-size: .9rem;
-            // font-size: 1.4rem;
+            font-size: .9rem;
             font-size: clamp(0.9rem, 0.8rem + 0.5vw, 1.4rem);
            }
         }   

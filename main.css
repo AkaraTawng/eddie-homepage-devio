@@ -114,6 +114,7 @@ footer {
 }
 footer #social-links-container h1 {
   font-size: 1.6rem;
+  font-size: clamp(1.6rem, 1.42rem + 0.9vw, 2.5rem);
   color: #f2f2f2;
   margin-bottom: 0.5rem;
   margin-left: 0.4rem;
@@ -122,6 +123,7 @@ footer #social-links-container iconify-icon {
   margin-left: 0.3rem;
   color: #737373;
   font-size: 1.2rem;
+  font-size: clamp(1.2rem, 1.04rem + 0.8vw, 2rem);
 }
 footer #social-links-container iconify-icon:hover {
   color: #f2f2f2;
@@ -158,5 +160,6 @@ footer #sitemap ul {
 }
 footer #sitemap ul a {
   font-weight: 400;
+  font-size: 0.9rem;
   font-size: clamp(0.9rem, 0.8rem + 0.5vw, 1.4rem);
 }/*# sourceMappingURL=main.css.map */

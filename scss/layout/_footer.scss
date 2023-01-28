@@ -25,9 +25,6 @@ footer {
         }
     }
 
-    #sitemap {
-    }
-    
     #social-links-container {
 
         iconify-icon:hover {
@@ -38,18 +35,13 @@ footer {
             transition: all ease .4s;
         }
     
-        // #instagram:hover {
-                  
-                    
-        //         }
-    
         #twitter:hover  {
             margin-left: .6rem;
-                }
+        }
     
         #linkedin:hover  {
             margin-left: .6rem;
-           }
+        }
     }
 
     #email-contact-container {
@@ -58,7 +50,6 @@ footer {
         @include laptop {
             margin: 0;
         }
-      
     }
 
     #email-input-container {
@@ -72,7 +63,6 @@ footer {
             width: 23rem;
         }
 
-
         input {
             height: 2.4rem;
             border-radius: 7px;
@@ -80,8 +70,6 @@ footer {
             @include laptop {
                 height: 3rem;
             }
-
-          
         }
 
         button { 

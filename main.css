@@ -147,6 +147,8 @@ footer #social-links-container iconify-icon:hover {
 }
 footer #email-contact-container label {
   color: #828282;
+  font-size: 0.6rem;
+  font-size: clamp(0.6rem, 0.52rem + 0.4vw, 1rem);
 }
 footer #email-input-container input::-moz-placeholder {
   font-size: 0.7rem;

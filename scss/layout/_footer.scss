@@ -92,6 +92,10 @@ footer {
             width: 4.2rem;
             border-radius: 10px;
             margin-right: .2rem;
+            @include laptop {
+                height: 2.7rem;
+                width: 6rem;
+            }
 
             &:hover {
                 background-color: lighten($button-blue, 10%);

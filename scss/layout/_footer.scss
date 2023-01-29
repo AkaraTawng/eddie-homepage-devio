@@ -27,12 +27,15 @@ footer {
 
     #social-links-container {
 
-        iconify-icon:hover {
-            transform: scale(1.2);
-            margin-right: .2em;
-            border-left: 2px solid white;
-            padding-left: .3rem;
-            transition: all ease .4s;
+        iconify-icon {
+             transition: all .4s ease;
+            &:hover {
+                animation-direction: alternate;
+                transform: scale(1.2);
+                margin-right: .2em;
+                border-left: 2px solid white;
+                padding-left: .3rem;
+            }
         }
     
         #twitter:hover  {

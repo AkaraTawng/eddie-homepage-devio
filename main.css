@@ -41,12 +41,16 @@ footer #lg-screen-flex-container {
     height: 50%;
   }
 }
+footer #social-links-container iconify-icon {
+  transition: all 0.4s ease;
+}
 footer #social-links-container iconify-icon:hover {
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
   transform: scale(1.2);
   margin-right: 0.2em;
   border-left: 2px solid white;
   padding-left: 0.3rem;
-  transition: all ease 0.4s;
 }
 footer #social-links-container #twitter:hover {
   margin-left: 0.6rem;

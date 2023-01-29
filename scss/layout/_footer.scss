@@ -111,9 +111,9 @@ footer {
            list-style-type: none;
 
            li {
+            transition: padding-left .3s ease;
             &:hover {
                 border-left: 2px solid white;
-                transition: padding-left ease .3s;
                 padding-left: .5rem;
                 width: fit-content;
             }

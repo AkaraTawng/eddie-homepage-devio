@@ -83,6 +83,7 @@ footer {
             width: 4.2rem;
             border-radius: 10px;
             margin-right: .2rem;
+            transition: all .2s ease;
             @include laptop {
                 height: 2.7rem;
                 width: 6rem;

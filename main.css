@@ -97,6 +97,7 @@ footer #email-input-container button {
   width: 4.2rem;
   border-radius: 10px;
   margin-right: 0.2rem;
+  transition: all 0.2s ease;
 }
 @media screen and (min-width: 1280px) {
   footer #email-input-container button {

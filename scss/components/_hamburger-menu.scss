@@ -16,9 +16,25 @@
         z-index: 1;
         position: relative; 
         font-size: 2rem;
+        cursor: pointer;
+        box-shadow: 0 0 0 $accent-blue-light;
+        transition: transform ease .2s;
+
+        &:hover {
+            transform: scale(1.1);
+            filter: drop-shadow( -3px 3px 0 $accent-blue-light);
+        }
+
+        &:active {
+            transform: scale(1);
+        }
 
         &#menu-close {
             color: white;
+        }
+
+        &#menu-open:hover {
+            filter: drop-shadow( -2px 1.2px 0 $accent-blue-light);
         }
     }
 

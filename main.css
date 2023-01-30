@@ -204,9 +204,22 @@ footer #sitemap ul a {
   z-index: 1;
   position: relative;
   font-size: 2rem;
+  cursor: pointer;
+  box-shadow: 0 0 0 #2d9cdb;
+  transition: transform ease 0.2s;
+}
+#hamburger-title-flex-container iconify-icon:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(-3px 3px 0 #2d9cdb);
+}
+#hamburger-title-flex-container iconify-icon:active {
+  transform: scale(1);
 }
 #hamburger-title-flex-container iconify-icon#menu-close {
   color: white;
+}
+#hamburger-title-flex-container iconify-icon#menu-open:hover {
+  filter: drop-shadow(-2px 1.2px 0 #2d9cdb);
 }
 
 .menu-box {

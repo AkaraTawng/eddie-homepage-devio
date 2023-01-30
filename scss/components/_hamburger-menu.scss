@@ -53,10 +53,10 @@
             font-weight: 600;
             font-size: 1.3rem;
             position: relative;
-            text-shadow: 0 0 0 red;
+            text-shadow: 0 0 0 $accent-blue-light;
             transition: text-shadow .5s, transform .5s;
               &:hover {
-                text-shadow: -3px 3px 0 red;
+                text-shadow: -3px 3px 0 $accent-blue-light;
                 transform: translateY(-6px);
             }
 
@@ -70,13 +70,13 @@
               bottom: 8px;
               right: -12px;
               opacity: 0;
-              box-shadow: 0 0 0 red;
+              box-shadow: 0 0 0 $accent-blue-light;
               transition: box-shadow .5s;
             }
 
             &:hover::after {
                 opacity: 1;
-                box-shadow: -1px 2px 0 red;
+                box-shadow: -1px 2px 0 $accent-blue-light;
               }
         }
     }

@@ -12,9 +12,14 @@
     z-index: 5;
 
     iconify-icon {
-        color: purple;
+        color: black;
         z-index: 1;
         position: relative; 
+        font-size: 2rem;
+
+        &#menu-close {
+            color: white;
+        }
     }
 
     
@@ -31,13 +36,15 @@
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    border-bottom-left-radius: 100%;
+    border-bottom-left-radius: 300%;
     transition: width .5s, height .5s, border-radius .5s;
 
     ul li {
         list-style: none;
         text-align: center;
         margin: 1rem 0;
+        opacity: 0;
+        transform: translateY(30px);
 
         a {
             display: inline-block;
@@ -76,8 +83,28 @@
 
 }
 
-    .open-menu {
-        width: 100%;
-        height: 50vh;
-        border-bottom-left-radius: 0;
-    }
+.open-menu {
+    width: 100%;
+    height: 50vh;
+    border-bottom-left-radius: 0;
+
+        ul { 
+            margin-top: -5rem;
+            li {
+            opacity: 1;
+            transform: translateY(0);
+            transition: transform 1s, opacity 1s;
+            transition-delay: .4s;
+        }
+    } 
+}
+
+.menu-icon {
+    display: none;
+}
+
+.open {
+    display: inline-block;
+}
+
+

@@ -28,5 +28,24 @@
         list-style: none;
         text-align: center;
         margin: 1rem 0;
+
+        a {
+            display: inline-block;
+            text-decoration: none;
+            color: white;
+            font-weight: 600;
+            font-size: 1.3rem;
+            position: relative;
+            text-shadow: 0 0 0 red;
+            transition: text-shadow .5s, transform .5s;
+              &:hover {
+                text-shadow: -3px 3px 0 red;
+                transform: translateY(-6px);
+            }
+
+            &::after {
+                
+            }
+        }
     }
 }

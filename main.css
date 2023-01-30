@@ -228,4 +228,21 @@ footer #sitemap ul a {
 .menu-box ul li a:hover {
   text-shadow: -3px 3px 0 red;
   transform: translateY(-6px);
+}
+.menu-box ul li a::after {
+  content: "";
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  bottom: 8px;
+  right: -12px;
+  opacity: 0;
+  box-shadow: 0 0 0 red;
+  transition: box-shadow 0.5s;
+}
+.menu-box ul li a:hover::after {
+  opacity: 1;
+  box-shadow: -1px 2px 0 red;
 }/*# sourceMappingURL=main.css.map */

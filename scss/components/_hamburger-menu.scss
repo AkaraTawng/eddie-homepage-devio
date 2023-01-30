@@ -44,8 +44,23 @@
             }
 
             &::after {
-                
+              content: '';   
+              width: 7px;
+              height: 7px;
+              border-radius: 50%;
+              background-color: white;
+              position: absolute;
+              bottom: 8px;
+              right: -12px;
+              opacity: 0;
+              box-shadow: 0 0 0 red;
+              transition: box-shadow .5s;
             }
+
+            &:hover::after {
+                opacity: 1;
+                box-shadow: -1px 2px 0 red;
+              }
         }
     }
 }

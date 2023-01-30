@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@800&family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">    
     <link rel="stylesheet" href="main.css">
     <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+    <script src="app.js" defer></script>
     <title>Eddie Homepage</title>
 </head>
 <body>
@@ -16,10 +17,11 @@
         <section id="hamburger-title-flex-container">
             <h1>Edie</h1>
             <div id="hamburger-container">
-                <iconify-icon icon="ion:menu"></iconify-icon>
+                <iconify-icon id="menu-open" class="menu-icon open" icon="ion:menu"></iconify-icon>
+                <iconify-icon id="menu-close" class="menu-icon" icon="line-md:menu-to-close-transition"></iconify-icon>
             </div>
 
-            <div class="menu-box">
+            <div class="menu-box" id="menu-box">
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Services</a></li>

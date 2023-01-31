@@ -4,15 +4,20 @@
         font-weight: 500;
     }
     #title {
+        // background-color: orange;
 
         h1 {
             font-size: 1.3rem;
             width: 75%;
+            align-self: flex-start;
+            margin-left: 2rem;
         }
 
         p {
             font-weight: 500;
             font-size: .7rem;
+            align-self: flex-start;
+            margin-left: 2rem;
         }
     }
 
@@ -31,7 +36,7 @@
 
 
 
-#hamburger-title-flex-container {
+ #hamburger-title-flex-container {
 
     iconify-icon {
         font-size: 2rem;

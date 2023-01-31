@@ -142,10 +142,14 @@ footer #sitemap ul a {
 #hero #title h1 {
   font-size: 1.3rem;
   width: 75%;
+  align-self: flex-start;
+  margin-left: 2rem;
 }
 #hero #title p {
   font-weight: 500;
   font-size: 0.7rem;
+  align-self: flex-start;
+  margin-left: 2rem;
 }
 #hero #mission-statement h1 {
   width: 50%;
@@ -344,5 +348,5 @@ footer #sitemap ul a {
 }
 
 header {
-  padding: 1rem 1rem 0 1rem;
+  padding: 1rem 1rem 2rem 1rem;
 }/*# sourceMappingURL=main.css.map */

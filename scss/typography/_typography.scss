@@ -1,16 +1,34 @@
-#title {
-
-    h1 {
-        font-weight: 500;
-        font-size: 1.5rem;
-    }
-
-    p {
+#hero {
+    h1, h2 {
+        color: $font-main-dark-black;
         font-weight: 500;
     }
+    #title {
 
+        h1 {
+            font-size: 1.3rem;
+            width: 75%;
+        }
 
+        p {
+            font-weight: 500;
+            font-size: .7rem;
+        }
+    }
+
+    #mission-statement {
+
+        h1 {
+            width: 50%;
+        }
+        p {
+            font-size: .6rem;
+            color: $font-secondary-light-black;
+            width: 70%;
+        }
+    }
 }
+
 
 
 #hamburger-title-flex-container {

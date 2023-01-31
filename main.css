@@ -135,12 +135,25 @@ footer #sitemap ul a {
   text-decoration: none;
 }
 
-#title h1 {
+#hero h1, #hero h2 {
+  color: #333333;
   font-weight: 500;
-  font-size: 1.5rem;
 }
-#title p {
+#hero #title h1 {
+  font-size: 1.3rem;
+  width: 75%;
+}
+#hero #title p {
   font-weight: 500;
+  font-size: 0.7rem;
+}
+#hero #mission-statement h1 {
+  width: 50%;
+}
+#hero #mission-statement p {
+  font-size: 0.6rem;
+  color: #4f4f4f;
+  width: 70%;
 }
 
 #hamburger-title-flex-container iconify-icon {
@@ -313,19 +326,16 @@ footer #sitemap ul a {
   display: inline-block;
 }
 
-#title {
+#hero #title {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
-#title h1 {
-  color: #333333;
-}
-#title p {
+#hero #title p {
   color: #2d9cdb;
 }
-#title img {
+#hero #title img {
   width: 95vw;
   height: 8rem;
   border-radius: 10px;

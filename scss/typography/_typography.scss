@@ -66,3 +66,21 @@ footer {
         }   
     }
 }
+
+#hamburger-title-flex-container {
+
+    iconify-icon {
+        font-size: 2rem;
+    }
+
+    ul li {
+        text-align: center;
+
+        a {
+            font-weight: 600;
+            font-size: 1.3rem;
+        }
+    }
+}
+
+

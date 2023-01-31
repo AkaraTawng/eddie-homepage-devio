@@ -1,0 +1,10 @@
+#title {
+    display: flex;
+    flex-direction: column;
+    h1 {
+        color: $font-main-dark-black;
+    }
+    p {
+        color: $accent-blue-light;
+    }
+}

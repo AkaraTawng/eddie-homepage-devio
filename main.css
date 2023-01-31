@@ -346,7 +346,14 @@ footer #sitemap ul a {
   -o-object-fit: cover;
      object-fit: cover;
 }
-
+#hero #mission-statement {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2rem;
+}
+#hero #mission-statement h1 {
+  padding: 1rem 0 1rem 0;
+}
 header {
   padding: 1rem 1rem 2rem 1rem;
 }/*# sourceMappingURL=main.css.map */

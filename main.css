@@ -135,6 +135,29 @@ footer #sitemap ul a {
   text-decoration: none;
 }
 
+#title h1 {
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+#title p {
+  font-weight: 500;
+}
+#title img {
+  width: 20grem;
+  height: 8rem;
+}
+
+#hamburger-title-flex-container iconify-icon {
+  font-size: 2rem;
+}
+#hamburger-title-flex-container ul li {
+  text-align: center;
+}
+#hamburger-title-flex-container ul li a {
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
 footer {
   font-size: 0.6rem;
   font-size: clamp(0.6rem, 0.52rem + 0.4vw, 1rem);
@@ -203,7 +226,6 @@ footer #sitemap ul a {
   color: black;
   z-index: 1;
   position: relative;
-  font-size: 2rem;
   cursor: pointer;
   box-shadow: 0 0 0 #2d9cdb;
   transition: transform ease 0.2s;
@@ -238,7 +260,6 @@ footer #sitemap ul a {
 }
 .menu-box ul li {
   list-style: none;
-  text-align: center;
   margin: 1rem 0;
   opacity: 0;
   transform: translateY(30px);
@@ -247,8 +268,6 @@ footer #sitemap ul a {
   display: inline-block;
   text-decoration: none;
   color: white;
-  font-weight: 600;
-  font-size: 1.3rem;
   position: relative;
   text-shadow: 0 0 0 #2d9cdb;
   transition: text-shadow 0.5s, transform 0.5s;
@@ -296,4 +315,19 @@ footer #sitemap ul a {
 
 .open {
   display: inline-block;
+}
+
+#title {
+  display: flex;
+  flex-direction: column;
+}
+#title h1 {
+  color: #333333;
+}
+#title p {
+  color: #2d9cdb;
+}
+
+header {
+  padding: 1rem 1rem 0 1rem;
 }/*# sourceMappingURL=main.css.map */

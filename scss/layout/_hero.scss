@@ -1,10 +1,19 @@
 #title {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     h1 {
         color: $font-main-dark-black;
     }
     p {
         color: $accent-blue-light;
+    }
+    
+    img {
+        width: 95vw;
+        height: 8rem;
+        border-radius: 10px;
+        object-fit: cover;
     }
 }

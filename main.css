@@ -142,10 +142,6 @@ footer #sitemap ul a {
 #title p {
   font-weight: 500;
 }
-#title img {
-  width: 20grem;
-  height: 8rem;
-}
 
 #hamburger-title-flex-container iconify-icon {
   font-size: 2rem;
@@ -320,12 +316,21 @@ footer #sitemap ul a {
 #title {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 #title h1 {
   color: #333333;
 }
 #title p {
   color: #2d9cdb;
+}
+#title img {
+  width: 95vw;
+  height: 8rem;
+  border-radius: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 header {

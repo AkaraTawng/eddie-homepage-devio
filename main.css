@@ -370,7 +370,7 @@ header {
   align-items: center;
 }
 #hero #hero-email-input-container input {
-  height: 2rem;
+  height: 2.5rem;
   background-color: #f2f2f2;
   border-radius: 8px;
   border: none;
@@ -385,7 +385,7 @@ header {
   border-radius: 8px;
   border: none;
   color: white;
-  height: 1.8rem;
+  height: 2.1rem;
 }
 #hero label {
   color: #828282;
@@ -393,4 +393,5 @@ header {
   font-weight: 500;
   align-self: flex-start;
   margin-left: 1.5rem;
+  padding-bottom: 0.3rem;
 }/*# sourceMappingURL=main.css.map */

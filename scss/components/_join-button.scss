@@ -13,7 +13,7 @@
         align-items: center;
 
         input {
-            height: 2rem;
+            height: 2.5rem;
             background-color: $button-accent-grey-light;
             border-radius: 8px;
             border: none;
@@ -29,7 +29,7 @@
             border-radius: 8px;
             border: none;
             color: white;
-            height: 1.8rem;
+            height: 2.1rem;
         }
     }
     label {
@@ -38,6 +38,7 @@
         font-weight: 500;
         align-self: flex-start;
         margin-left: 1.5rem;
+        padding-bottom: .3rem;
     }
 
    

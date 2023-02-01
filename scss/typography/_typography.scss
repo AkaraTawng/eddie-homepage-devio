@@ -2,6 +2,7 @@
     h1, h2 {
         color: $font-main-dark-black;
         font-weight: 500;
+        
     }
     #title {
         // background-color: orange;
@@ -12,6 +13,7 @@
             
             align-self: flex-start;
             margin-left: 2rem;
+            margin-left: 8%;
         }
 
         p {
@@ -20,10 +22,12 @@
             font-size: clamp(0.7rem, 0.56rem + 0.7vw, 1.4rem);
             align-self: flex-start;
             margin-left: 2rem;
+            margin-left: 8%;
         }
     }
 
     #mission-statement {
+        margin-left: 8%;
 
         h1 {
             font-size: clamp(1rem, 0.7rem + 1.5vw, 2.5rem);

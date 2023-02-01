@@ -141,7 +141,6 @@ footer #sitemap ul a {
 #hero #title h1 {
   font-size: 1.3rem;
   font-size: clamp(1rem, 0.7rem + 1.5vw, 2.5rem);
-  width: 75%;
   align-self: flex-start;
   margin-left: 2rem;
 }
@@ -153,7 +152,6 @@ footer #sitemap ul a {
   margin-left: 2rem;
 }
 #hero #mission-statement h1 {
-  width: 50%;
   font-size: clamp(1rem, 0.7rem + 1.5vw, 2.5rem);
 }
 #hero #mission-statement p {

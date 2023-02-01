@@ -140,6 +140,7 @@ footer #sitemap ul a {
 }
 #hero #title h1 {
   font-size: 1.3rem;
+  font-size: clamp(1rem, 0.7rem + 1.5vw, 2.5rem);
   width: 75%;
   align-self: flex-start;
   margin-left: 2rem;
@@ -147,14 +148,17 @@ footer #sitemap ul a {
 #hero #title p {
   font-weight: 500;
   font-size: 0.7rem;
+  font-size: clamp(0.7rem, 0.56rem + 0.7vw, 1.4rem);
   align-self: flex-start;
   margin-left: 2rem;
 }
 #hero #mission-statement h1 {
   width: 50%;
+  font-size: clamp(1rem, 0.7rem + 1.5vw, 2.5rem);
 }
 #hero #mission-statement p {
   font-size: 0.6rem;
+  font-size: clamp(0.6rem, 0.5rem + 0.5vw, 1.1rem);
   color: #4f4f4f;
   width: 70%;
 }
@@ -393,5 +397,5 @@ header {
   font-weight: 500;
   align-self: flex-start;
   margin-left: 1.5rem;
-  padding-bottom: 0.3rem;
+  padding-bottom: 0.3 rem;
 }/*# sourceMappingURL=main.css.map */

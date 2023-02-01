@@ -348,12 +348,31 @@ footer #sitemap ul a {
 #hero #title p {
   color: #2d9cdb;
 }
-#hero #title img {
+#hero #title img#small-screens {
   width: 95vw;
   height: 8rem;
+  height: clamp(8rem, 3.6rem + 22vw, 30rem);
   border-radius: 10px;
   -o-object-fit: cover;
      object-fit: cover;
+}
+@media screen and (min-width: 1280px) {
+  #hero #title img#small-screens {
+    display: none;
+  }
+}
+#hero #title img#large-screens {
+  display: none;
+  width: 95vw;
+  height: auto;
+  border-radius: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+@media screen and (min-width: 1280px) {
+  #hero #title img#large-screens {
+    display: block;
+  }
 }
 #hero #mission-statement {
   display: flex;

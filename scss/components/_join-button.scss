@@ -10,7 +10,7 @@
     #hero-email-input-container {
         position: relative;
         display: flex;
-        align-items: center;
+       
 
         input {
             height: 2.5rem;
@@ -36,9 +36,8 @@
         color: $font-accent-grey-light;
         font-size: .7rem;
         font-weight: 500;
-        align-self: flex-start;
-        margin-left: 1.5rem;
-        padding-bottom: .3 rem;
+        margin-left: -8rem;
+        padding-bottom: .3rem;
     }
 
    

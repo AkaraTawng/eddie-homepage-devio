@@ -371,7 +371,6 @@ header {
 #hero #hero-email-input-container {
   position: relative;
   display: flex;
-  align-items: center;
 }
 #hero #hero-email-input-container input {
   height: 2.5rem;
@@ -395,7 +394,6 @@ header {
   color: #828282;
   font-size: 0.7rem;
   font-weight: 500;
-  align-self: flex-start;
-  margin-left: 1.5rem;
-  padding-bottom: 0.3 rem;
+  margin-left: -8rem;
+  padding-bottom: 0.3rem;
 }/*# sourceMappingURL=main.css.map */

@@ -238,6 +238,11 @@ footer #sitemap ul a {
   width: 100%;
   z-index: 5;
 }
+@media screen and (min-width: 1280px) {
+  #hamburger-title-flex-container {
+    display: none;
+  }
+}
 #hamburger-title-flex-container iconify-icon {
   color: black;
   z-index: 6;
@@ -396,4 +401,43 @@ header {
   font-weight: 500;
   margin-left: -8rem;
   padding-bottom: 0.3rem;
+}
+
+#desktop-nav {
+  display: none;
+  justify-content: space-between;
+}
+@media screen and (min-width: 1280px) {
+  #desktop-nav {
+    display: flex;
+  }
+}
+#desktop-nav #desktop-nav-list {
+  display: flex;
+  justify-content: space-around;
+  width: 40rem;
+  list-style: none;
+  font-weight: 500;
+  color: #333333;
+}
+#desktop-nav #desktop-nav-list li {
+  transition: all 0.2s ease;
+}
+#desktop-nav #desktop-nav-list li:hover {
+  transform: scale(1.1);
+}
+#desktop-nav #desktop-nav-list a {
+  text-decoration: none;
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+}
+#desktop-nav #desktop-nav-list a:hover {
+  border-left: solid black 2px;
+  border-right: solid black 2px;
+}
+#desktop-nav #desktop-nav-list a:active {
+  color: #2D9CDB !important;
+}
+#desktop-nav #desktop-nav-list a:visited {
+  color: black;
 }/*# sourceMappingURL=main.css.map */

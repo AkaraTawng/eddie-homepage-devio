@@ -1,0 +1,42 @@
+#desktop-nav {
+    display: none;
+    justify-content: space-between;
+    @include laptop {
+        display: flex;
+    }
+
+    #desktop-nav-list {
+        display: flex;
+        justify-content: space-around;
+        width: 40rem;
+        list-style: none;
+        font-weight: 500;
+        color: $font-main-dark-black;
+
+        li {
+             transition: all .2s ease;
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+
+        a{
+            text-decoration: none;
+            padding-left: .2rem;
+            padding-right: .2rem;
+
+            &:hover {
+                border-left: solid black 2px;
+                border-right: solid black 2px;
+            }
+
+            &:active {
+                color: $button-blue !important;
+            }
+
+            &:visited{
+                color: black;
+            }
+        }
+    }
+}

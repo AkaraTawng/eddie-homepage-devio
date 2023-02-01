@@ -3,7 +3,9 @@
     justify-content: space-between;
     width: 100%;
     z-index: 5;
-    
+    @include laptop {
+        display: none;
+    }
 
     iconify-icon {
         color: black;

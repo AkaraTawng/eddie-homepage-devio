@@ -368,6 +368,14 @@ footer #sitemap ul a {
   justify-content: flex-start;
   align-items: center;
 }
+#hero #title h1 {
+  padding: 0.2rem 0 1rem 0;
+}
+@media screen and (min-width: 1280px) {
+  #hero #title h1 {
+    padding: 0.7rem 0 2rem 0;
+  }
+}
 #hero #title p {
   color: #2d9cdb;
 }
@@ -404,6 +412,17 @@ footer #sitemap ul a {
 #hero #mission-statement h1 {
   padding: 1rem 0 1rem 0;
 }
+@media screen and (min-width: 1280px) {
+  #hero #mission-statement h1 {
+    padding: 2rem 0 2rem 0;
+  }
+}
+@media screen and (min-width: 1280px) {
+  #hero #mission-statement p {
+    padding: 0 0 3rem 0;
+  }
+}
+
 header {
   padding: 1rem 1rem 2rem 1rem;
 }

@@ -6,7 +6,10 @@
     justify-content: flex-start;
     align-items: center;
     h1 {
-        // color: $font-main-dark-black;
+        padding: .2rem 0 1rem 0;
+        @include laptop {
+        padding: .7rem 0 2rem 0;
+        }
     }
     p {
         color: $accent-blue-light;
@@ -43,10 +46,15 @@
 
         h1 {
             padding: 1rem 0 1rem 0;
+            @include laptop {
+                padding: 2rem 0 2rem 0;
+            }
         }
 
         p {
-
+            @include laptop {
+                padding: 0 0 3rem 0;
+            }
         }
     }
 

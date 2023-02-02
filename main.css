@@ -145,6 +145,11 @@ footer #sitemap ul a {
   margin-left: 2rem;
   margin-left: 8%;
 }
+@media screen and (min-width: 1280px) {
+  #hero #title h1 {
+    margin-left: 20%;
+  }
+}
 #hero #title p {
   font-weight: 500;
   font-size: 0.7rem;
@@ -153,8 +158,18 @@ footer #sitemap ul a {
   margin-left: 2rem;
   margin-left: 8%;
 }
+@media screen and (min-width: 1280px) {
+  #hero #title p {
+    margin-left: 20%;
+  }
+}
 #hero #mission-statement {
   margin-left: 8%;
+}
+@media screen and (min-width: 1280px) {
+  #hero #mission-statement {
+    margin-left: 20%;
+  }
 }
 #hero #mission-statement h1 {
   font-size: clamp(1rem, 0.7rem + 1.5vw, 2.5rem);
@@ -163,7 +178,12 @@ footer #sitemap ul a {
   font-size: 0.6rem;
   font-size: clamp(0.6rem, 0.5rem + 0.5vw, 1.1rem);
   color: #4f4f4f;
-  width: 70%;
+  width: 14rem;
+}
+@media screen and (min-width: 1280px) {
+  #hero #mission-statement p {
+    width: 30%;
+  }
 }
 
 #hamburger-title-flex-container iconify-icon {

@@ -21,7 +21,8 @@
        
 
         input {
-            height: 2.5rem;
+            height: clamp(2.5rem, 2.46rem + 0.2vw, 2.7rem);
+            width: clamp(17.5rem, 17.4rem + 0.5vw, 18rem);
             background-color: $button-accent-grey-light;
             border-radius: 8px;
             border: none;

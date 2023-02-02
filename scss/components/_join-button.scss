@@ -5,6 +5,10 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        
+        @include laptop {
+        
+        }
     }
 
     #hero-email-input-container {
@@ -19,6 +23,12 @@
             border: none;
             color: $button-font-light-grey;
             padding-left: 1rem;
+
+            @include laptop {
+                height: 3rem;
+                // width: ;
+                
+            }
 
             &::placeholder {
 

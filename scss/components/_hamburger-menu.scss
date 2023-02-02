@@ -7,6 +7,10 @@
         display: none;
     }
 
+    h1#edie-title-sm-sc {
+        font-size: clamp(1rem, 0.8rem + 1vw, 2rem);
+    }
+
     iconify-icon {
         color: black;
         z-index: 6;

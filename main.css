@@ -266,6 +266,9 @@ footer #sitemap ul a {
     display: none;
   }
 }
+#hamburger-title-flex-container h1#edie-title-sm-sc {
+  font-size: clamp(1rem, 0.8rem + 1vw, 2rem);
+}
 #hamburger-title-flex-container iconify-icon {
   color: black;
   z-index: 6;
@@ -471,6 +474,9 @@ header {
 #desktop-nav {
   display: none;
   justify-content: space-between;
+}
+#desktop-nav h1#edie-title-lg-sc {
+  font-size: clamp(2rem, 1.9rem + 0.5vw, 2.5rem);
 }
 @media screen and (min-width: 1280px) {
   #desktop-nav {

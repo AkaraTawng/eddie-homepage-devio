@@ -422,7 +422,7 @@ footer #sitemap ul a {
 }
 @media screen and (min-width: 1280px) {
   #hero #mission-statement p {
-    padding: 0 0 3rem 0;
+    padding: 0 0 1rem 0;
   }
 }
 
@@ -435,6 +435,12 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+@media screen and (min-width: 1280px) {
+  #hero #hero-email-contact-container {
+    display: inline-flex;
+    margin-left: 20%;
+  }
 }
 #hero #hero-email-input-container {
   position: relative;
@@ -451,8 +457,8 @@ header {
 }
 @media screen and (min-width: 1280px) {
   #hero #hero-email-input-container input {
-    height: 3rem;
-    width: 20rem;
+    height: 2.7rem;
+    width: 18rem;
   }
 }
 #hero #hero-email-input-container input::-moz-placeholder {
@@ -467,25 +473,19 @@ header {
 #hero #hero-email-input-container button {
   position: absolute;
   right: 0.2rem;
-  width: 4rem;
+  width: clamp(4rem, 3.8rem + 1vw, 5rem);
   background-color: #2D9CDB;
   border-radius: 8px;
   border: none;
   color: white;
-  height: 2.1rem;
-}
-@media screen and (min-width: 1280px) {
-  #hero #hero-email-input-container button {
-    height: 2.6rem;
-    width: 5rem;
-  }
+  height: clamp(2.1rem, 2.04rem + 0.3vw, 2.4rem);
 }
 #hero label {
   color: #828282;
   font-size: 0.7rem;
   font-size: clamp(0.7rem, 0.66rem + 0.2vw, 0.9rem);
   font-weight: 500;
-  margin-left: -8rem;
+  margin-left: clamp(-8rem, -8.2rem + 1vw, -7rem);
   padding-bottom: 0.3rem;
 }
 

@@ -8,7 +8,8 @@
         
         
         @include laptop {
-        
+            display: inline-flex;
+            margin-left: 20%;
         }
     }
 
@@ -28,8 +29,8 @@
             padding-left: 1rem;
 
             @include laptop {
-                height: 3rem;
-                width: 20rem;
+                height: 2.7rem;
+                width: 18rem;
                 
             }
 
@@ -41,17 +42,13 @@
         button {
             position: absolute;
             right: .2rem;
-            width: 4rem;
+            width: clamp(4rem, 3.8rem + 1vw, 5rem);
             background-color: $button-blue;
             border-radius: 8px;
             border: none;
             color: white;
-            height: 2.1rem;
-            // align-self: center;
-            @include laptop {
-                height: 2.6rem;
-                width: 5rem;
-            }
+            height: clamp(2.1rem, 2.04rem + 0.3vw, 2.4rem);
+         
         }
     }
     label {
@@ -59,7 +56,7 @@
         font-size: .7rem;
         font-size: clamp(0.7rem, 0.66rem + 0.2vw, 0.9rem);
         font-weight: 500;
-        margin-left: -8rem;
+        margin-left: clamp(-8rem, -8.2rem + 1vw, -7rem);
         padding-bottom: .3rem;
     }
 

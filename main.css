@@ -493,6 +493,7 @@ header {
 }
 #desktop-nav #desktop-nav-list li {
   transition: all 0.2s ease;
+  font-size: clamp(1rem, 0.94rem + 0.3vw, 1.3rem);
 }
 #desktop-nav #desktop-nav-list li:hover {
   transform: scale(1.1);

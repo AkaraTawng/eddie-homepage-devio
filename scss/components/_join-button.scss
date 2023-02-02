@@ -6,6 +6,7 @@
         flex-direction: column;
         align-items: center;
         
+        
         @include laptop {
         
         }
@@ -14,6 +15,8 @@
     #hero-email-input-container {
         position: relative;
         display: flex;
+        align-items: center;
+
        
 
         input {
@@ -26,12 +29,12 @@
 
             @include laptop {
                 height: 3rem;
-                // width: ;
+                width: 20rem;
                 
             }
 
             &::placeholder {
-
+                font-weight: 500;
             }
         }
     
@@ -44,12 +47,17 @@
             border: none;
             color: white;
             height: 2.1rem;
+            // align-self: center;
+            @include laptop {
+                height: 2.6rem;
+                width: 5rem;
+            }
         }
     }
     label {
         color: $font-accent-grey-light;
         font-size: .7rem;
-        // font-size: 1rem;
+        font-size: clamp(0.7rem, 0.66rem + 0.2vw, 0.9rem);
         font-weight: 500;
         margin-left: -8rem;
         padding-bottom: .3rem;

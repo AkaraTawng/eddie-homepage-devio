@@ -37,12 +37,16 @@
     }
 
     .service-card-button {
-        background-color: $button-blue;
-        color: white;
+        color: $font-accent-grey-light;
         height: 2.5rem;
         width: 7rem;
         border-radius: 13px;
         border: none;
+        transition: all .3s ease;
 
+        &:hover {
+            background-color: $button-blue;
+            color: white;
+        }
     }
 }

@@ -347,10 +347,6 @@ footer #sitemap ul a {
   border-bottom-left-radius: 0;
   z-index: 5;
 }
-.open-menu ul {
-  margin-top: -35rem;
-  margin-top: -20rem;
-}
 .open-menu ul li {
   opacity: 1;
   transform: translateY(0);

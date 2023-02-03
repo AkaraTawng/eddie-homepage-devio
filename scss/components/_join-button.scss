@@ -5,8 +5,6 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        
-        
         @include laptop {
             display: inline-flex;
             margin-left: 20%;
@@ -17,8 +15,6 @@
         position: relative;
         display: flex;
         align-items: center;
-
-       
 
         input {
             height: clamp(2.5rem, 2.46rem + 0.2vw, 2.7rem);
@@ -32,7 +28,6 @@
             @include laptop {
                 height: 2.7rem;
                 width: 18rem;
-                
             }
 
             &::placeholder {
@@ -49,9 +44,9 @@
             border: none;
             color: white;
             height: clamp(2.1rem, 2.04rem + 0.3vw, 2.4rem);
-         
         }
     }
+
     label {
         color: $font-accent-grey-light;
         font-size: .7rem;
@@ -60,6 +55,4 @@
         margin-left: clamp(-8rem, -8.2rem + 1vw, -7rem);
         padding-bottom: .3rem;
     }
-
-   
 }

@@ -531,4 +531,51 @@ header {
 }
 #desktop-nav #desktop-nav-list a:visited {
   color: black;
+}
+
+.service-card-outer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 30rem;
+  width: 90%;
+  border-radius: 15px;
+  padding: 10%;
+}
+.service-card-outer-container:hover {
+  box-shadow: 0px 0px 20px 10px rgb(241, 241, 241);
+}
+.service-card-outer-container .service-card-title {
+  font-size: 1.7rem;
+  color: #333333;
+}
+.service-card-outer-container .service-card-description {
+  color: #4f4f4f;
+}
+.service-card-outer-container .service-card-icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2d9cdb;
+  height: 4rem;
+  width: 4rem;
+  border-radius: 15px;
+}
+.service-card-outer-container .service-card-icon-container iconify-icon {
+  font-size: 2.4rem;
+}
+.service-card-outer-container .service-card-button {
+  background-color: #2D9CDB;
+  color: white;
+  height: 2.5rem;
+  width: 7rem;
+  border-radius: 13px;
+  border: none;
+}
+
+#services {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  padding-bottom: 10rem;
 }/*# sourceMappingURL=main.css.map */

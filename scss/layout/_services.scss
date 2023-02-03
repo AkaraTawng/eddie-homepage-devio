@@ -3,5 +3,13 @@
     display: flex;
     align-items: center;
     padding-bottom: 10rem;
+
+    h1 {
+        color: $font-main-dark-black;
+        font-weight: 500;
+        padding-top: 5rem;
+        margin-left: -2.5rem;
+        margin-bottom: 2rem;
+    }
     
 }

@@ -13,12 +13,14 @@
     }
     
     .service-card-title {
-        font-size: 1.7rem;
+        font-size: 1.6rem;
         color: $font-main-dark-black;
     }
 
     .service-card-description {
-        color: $font-secondary-light-black ;
+        font-size: .9rem;
+        color: $font-secondary-light-black;
+        width: 110%;
     }
 
     .service-card-icon-container {

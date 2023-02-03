@@ -1,12 +1,26 @@
+#service-cards-outer-container {
+   
+    @include laptop {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+    }
+}
+
 .service-card-outer-container {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     // background-color: rgb(216, 216, 216);
     height: 30rem;
-    width: 90%;
+    // width: 90%;
+    width: 18rem;
+    width: 25rem;
+    width: clamp(18rem, 16.6rem + 7vw, 25rem);
     border-radius: 15px;
-    padding: 10%;
+    // padding: 10%;
+    padding: 1.5rem;
 
     &:hover {
         box-shadow: 0px 0px 20px 10px rgb(241, 241, 241);
@@ -20,7 +34,7 @@
     .service-card-description {
         font-size: .9rem;
         color: $font-secondary-light-black;
-        width: 110%;
+        width: 100%;
     }
 
     .service-card-icon-container {

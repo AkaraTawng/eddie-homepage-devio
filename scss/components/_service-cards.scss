@@ -29,6 +29,18 @@
         height: 4rem;
         width: 4rem;
         border-radius: 15px;
+
+        &.uiuxdesign {
+            background-color: $button-blue ;
+        }
+
+        &.frontend {
+            background-color: $button-green;
+        }
+
+        &.backend {
+            background-color: $accent-orange;
+        }
         
         iconify-icon {
             font-size: 2.4rem;

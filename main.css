@@ -561,6 +561,15 @@ header {
   width: 4rem;
   border-radius: 15px;
 }
+.service-card-outer-container .service-card-icon-container.uiuxdesign {
+  background-color: #2D9CDB;
+}
+.service-card-outer-container .service-card-icon-container.frontend {
+  background-color: #27AE60;
+}
+.service-card-outer-container .service-card-icon-container.backend {
+  background-color: #EB5757;
+}
 .service-card-outer-container .service-card-icon-container iconify-icon {
   font-size: 2.4rem;
 }

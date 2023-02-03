@@ -625,4 +625,9 @@ header {
   #services h1 {
     margin-left: -48%;
   }
+}
+@media screen and (min-width: 1530px) {
+  #services h1 {
+    margin-left: -52%;
+  }
 }/*# sourceMappingURL=main.css.map */

@@ -649,6 +649,39 @@ header {
   font-weight: 500;
   font-size: 1.1rem;
 }
+#portfolio iconify-icon {
+  font-size: 1.5rem;
+  color: #2D9CDB;
+}
+
+#portfolio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 1280px) {
+  #portfolio #portfolio-grid-container {
+    padding: 0 14rem 0 14rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    grid-column-gap: 1rem;
+  }
+  #portfolio #portfolio-grid-container .portfolio-item-container:nth-child(odd) {
+    margin-top: 7rem;
+  }
+}
+#portfolio h1 {
+  margin-bottom: 3rem;
+  font-weight: 500;
+  color: #333333;
+}
+@media screen and (min-width: 1280px) {
+  #portfolio h1 {
+    margin-left: -22rem;
+  }
+}
 #portfolio #see-more-link-container {
   display: flex;
   flex-direction: row;
@@ -656,6 +689,12 @@ header {
   align-items: center;
   margin-bottom: 2rem;
   position: relative;
+  margin-left: -11.5rem;
+}
+@media screen and (min-width: 1280px) {
+  #portfolio #see-more-link-container {
+    margin-left: 25rem;
+  }
 }
 #portfolio #see-more-link-container a {
   padding-right: 1rem;
@@ -678,20 +717,4 @@ header {
   width: 100%;
   opacity: 1;
   left: 0;
-}
-#portfolio #see-more-link-container iconify-icon {
-  font-size: 1.5rem;
-  color: #2D9CDB;
-}
-
-#portfolio {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-#portfolio h1 {
-  margin-bottom: 3rem;
-  font-weight: 500;
-  color: #333333;
 }/*# sourceMappingURL=main.css.map */

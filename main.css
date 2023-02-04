@@ -649,6 +649,40 @@ header {
   font-weight: 500;
   font-size: 1.1rem;
 }
+#portfolio #see-more-link-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+  position: relative;
+}
+#portfolio #see-more-link-container a {
+  padding-right: 1rem;
+  color: #2D9CDB;
+  text-decoration: none;
+  font-weight: 500;
+}
+#portfolio #see-more-link-container a::before {
+  content: "";
+  height: 2px;
+  width: 0%;
+  opacity: 0;
+  background-color: #2D9CDB;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transition: all ease 0.4s;
+}
+#portfolio #see-more-link-container a:hover::before {
+  width: 100%;
+  opacity: 1;
+  left: 0;
+}
+#portfolio #see-more-link-container iconify-icon {
+  font-size: 1.5rem;
+  color: #2D9CDB;
+}
 
 #portfolio {
   display: flex;

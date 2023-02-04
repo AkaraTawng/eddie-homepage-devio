@@ -1,0 +1,20 @@
+#portfolio {
+
+    .portfolio-item-image {
+        height: 19rem;
+        width: 19rem;
+        border-radius: 20px;
+    }
+
+    .portfolio-item-img-caption {
+        color: $font-accent-grey-light;
+        font-size: 1rem;
+    }
+
+    .portfolio-item-title {
+        color: $font-main-dark-black;
+        font-weight: 500;
+        font-size: 1.5 rem;
+    }
+
+}

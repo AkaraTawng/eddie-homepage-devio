@@ -630,4 +630,31 @@ header {
   #services h1 {
     margin-left: -52%;
   }
+}
+
+#portfolio .portfolio-item-image {
+  height: 19rem;
+  width: 19rem;
+  border-radius: 20px;
+}
+#portfolio .portfolio-item-img-caption {
+  color: #828282;
+  font-size: 1rem;
+}
+#portfolio .portfolio-item-title {
+  color: #333333;
+  font-weight: 500;
+  font-size: 1.5 rem;
+}
+
+#portfolio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#portfolio h1 {
+  margin-bottom: 3rem;
+  font-weight: 500;
+  color: #333333;
 }/*# sourceMappingURL=main.css.map */

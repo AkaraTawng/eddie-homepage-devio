@@ -7,6 +7,8 @@
     .portfolio-item-image {
         height: 19rem;
         width: 19rem;
+        height: clamp(19rem, 14.6rem + 22vw, 41rem);
+        width: clamp(19rem, 14.6rem + 22vw, 41rem);
         border-radius: 20px;
     }
 
@@ -20,7 +22,7 @@
         font-weight: 500;
         font-size: 1.1rem;
     }
-    
+
         iconify-icon {
             font-size: 1.5rem;
             color: $button-blue;

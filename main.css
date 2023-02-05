@@ -541,7 +541,7 @@ header {
   #service-cards-outer-container {
     flex-direction: row;
     justify-content: space-around;
-    width: 70%;
+    width: 77%;
   }
 }
 
@@ -623,12 +623,7 @@ header {
 }
 @media screen and (min-width: 1280px) {
   #services h1 {
-    margin-left: -48%;
-  }
-}
-@media screen and (min-width: 1530px) {
-  #services h1 {
-    margin-left: -52%;
+    margin-left: -60%;
   }
 }
 
@@ -638,6 +633,8 @@ header {
 #portfolio .portfolio-item-image {
   height: 19rem;
   width: 19rem;
+  height: clamp(19rem, 14.6rem + 22vw, 41rem);
+  width: clamp(19rem, 14.6rem + 22vw, 41rem);
   border-radius: 20px;
 }
 #portfolio .portfolio-item-img-caption {
@@ -669,17 +666,25 @@ header {
     grid-column-gap: 1rem;
   }
   #portfolio #portfolio-grid-container .portfolio-item-container:nth-child(odd) {
-    margin-top: 7rem;
+    margin-top: 9rem;
   }
 }
 #portfolio h1 {
   margin-bottom: 3rem;
   font-weight: 500;
   color: #333333;
+  font-size: 1.5rem;
+  font-size: clamp(1.5rem, 1.34rem + 0.8vw, 2.3rem);
 }
 @media screen and (min-width: 1280px) {
   #portfolio h1 {
-    margin-left: -22rem;
+    margin-left: -55%;
+    margin-bottom: 0;
+  }
+}
+@media screen and (min-width: 1530px) {
+  #portfolio h1 {
+    margin-left: -50%;
   }
 }
 #portfolio #see-more-link-container {
@@ -690,10 +695,24 @@ header {
   margin-bottom: 2rem;
   position: relative;
   margin-left: -11.5rem;
+  font-size: 1rem;
+  font-size: clamp(1rem, 0.94rem + 0.3vw, 1.3rem);
+}
+@media screen and (min-width: 760px) {
+  #portfolio #see-more-link-container {
+    margin-left: -36%;
+  }
 }
 @media screen and (min-width: 1280px) {
   #portfolio #see-more-link-container {
-    margin-left: 25rem;
+    margin-top: -5rem;
+    margin-left: 0rem;
+    margin-right: -70%;
+  }
+}
+@media screen and (min-width: 1530px) {
+  #portfolio #see-more-link-container {
+    margin-right: -65%;
   }
 }
 #portfolio #see-more-link-container a {

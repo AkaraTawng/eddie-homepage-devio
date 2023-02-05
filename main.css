@@ -638,11 +638,11 @@ header {
   border-radius: 20px;
   transition: all 0.3s ease-out;
 }
-#portfolio #jcecontainer {
+#portfolio .image-container {
   overflow: hidden;
   border-radius: 15px;
 }
-#portfolio #jcecontainer img:hover {
+#portfolio .image-container img:hover {
   transform: scale(1.1);
 }
 #portfolio .portfolio-item-img-caption {

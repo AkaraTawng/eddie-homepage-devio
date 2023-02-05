@@ -10,6 +10,19 @@
         height: clamp(19rem, 14.6rem + 22vw, 41rem);
         width: clamp(19rem, 14.6rem + 22vw, 41rem);
         border-radius: 20px;
+        transition: all .3s ease-out;
+    }
+
+    #jcecontainer {
+        overflow: hidden;
+        border-radius: 15px;
+        
+        img:hover {
+            transform: scale(1.1);
+            
+
+           
+        }
     }
 
     .portfolio-item-img-caption {

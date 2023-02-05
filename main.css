@@ -636,6 +636,14 @@ header {
   height: clamp(19rem, 14.6rem + 22vw, 41rem);
   width: clamp(19rem, 14.6rem + 22vw, 41rem);
   border-radius: 20px;
+  transition: all 0.3s ease-out;
+}
+#portfolio #jcecontainer {
+  overflow: hidden;
+  border-radius: 15px;
+}
+#portfolio #jcecontainer img:hover {
+  transform: scale(1.1);
 }
 #portfolio .portfolio-item-img-caption {
   color: #828282;

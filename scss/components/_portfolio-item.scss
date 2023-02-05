@@ -2,6 +2,15 @@
 
     .portfolio-item-container {
         padding-bottom: 3rem;
+
+        h2, figcaption {
+            transition: all .9s ease;
+        }
+
+        &:hover h2, &:hover figcaption {
+            transform: scale(1.2);
+            transform: translate(2rem, .5rem);
+        }
     }
 
     .portfolio-item-image {
@@ -19,9 +28,6 @@
         
         img:hover {
             transform: scale(1.1);
-            
-
-           
         }
     }
 

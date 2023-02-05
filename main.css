@@ -630,6 +630,13 @@ header {
 #portfolio .portfolio-item-container {
   padding-bottom: 3rem;
 }
+#portfolio .portfolio-item-container h2, #portfolio .portfolio-item-container figcaption {
+  transition: all 0.9s ease;
+}
+#portfolio .portfolio-item-container:hover h2, #portfolio .portfolio-item-container:hover figcaption {
+  transform: scale(1.2);
+  transform: translate(2rem, 0.5rem);
+}
 #portfolio .portfolio-item-image {
   height: 19rem;
   width: 19rem;

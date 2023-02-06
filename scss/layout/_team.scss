@@ -4,6 +4,7 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 5rem;
+    margin-top: 3rem;
     @include laptop {
         flex-direction: row;
     }
@@ -13,7 +14,6 @@
         @include tablet {
             align-self: center;
         }
-        margin-left: 3%;
         padding-bottom: 7%;
 
         h1 {

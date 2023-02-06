@@ -759,6 +759,7 @@ header {
   justify-content: center;
   align-items: center;
   margin-bottom: 5rem;
+  margin-top: 3rem;
 }
 @media screen and (min-width: 1280px) {
   #team {
@@ -767,7 +768,6 @@ header {
 }
 #team #team-text-content {
   padding-right: 4rem;
-  margin-left: 3%;
   padding-bottom: 7%;
 }
 @media screen and (min-width: 760px) {

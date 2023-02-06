@@ -751,4 +751,64 @@ header {
   width: 100%;
   opacity: 1;
   left: 0;
+}
+
+#team {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+@media screen and (min-width: 1280px) {
+  #team {
+    flex-direction: row;
+  }
+}
+#team #team-text-content {
+  padding-right: 4rem;
+  margin-left: 3%;
+  padding-bottom: 7%;
+}
+@media screen and (min-width: 760px) {
+  #team #team-text-content {
+    align-self: center;
+  }
+}
+#team #team-text-content h1 {
+  font-size: 0.7rem;
+  color: #EB5757;
+  font-weight: 500;
+  padding-bottom: 4%;
+}
+#team #team-text-content h2 {
+  color: #333333;
+  font-weight: 500;
+  padding-bottom: 4%;
+}
+#team #team-text-content p {
+  font-size: 0.7rem;
+}
+#team img {
+  width: 9rem;
+  height: 9rem;
+  border-radius: 8px;
+}
+#team #team-flex-container {
+  display: flex;
+  justify-content: space-around;
+  width: 19rem;
+  height: 18rem;
+}
+#team #team-flex-container #men-images {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+#team #team-flex-container #woman {
+  align-self: center;
+}
+#team #team-flex-container #man-no-glasses {
+  height: 8rem;
+  width: 8rem;
 }/*# sourceMappingURL=main.css.map */

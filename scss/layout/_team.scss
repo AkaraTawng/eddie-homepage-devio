@@ -1,3 +1,65 @@
 #team {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+    @include laptop {
+        flex-direction: row;
+    }
+
+    #team-text-content {
+        padding-right: 4rem;
+        @include tablet {
+            align-self: center;
+        }
+        margin-left: 3%;
+        padding-bottom: 7%;
+
+        h1 {
+            font-size: .7rem;
+            color: $accent-orange;
+            font-weight: 500;
+            padding-bottom: 4%;
+        }
     
+        h2 {
+            color: $font-main-dark-black;
+            font-weight: 500;
+            padding-bottom: 4%;
+        }
+    
+        p {
+            font-size: .7rem;
+        }
+    }
+   
+
+    img {
+     width:9rem;
+     height:9rem;
+     border-radius: 8px;
+    }
+
+    #team-flex-container {
+        display: flex;
+        justify-content: space-around;
+        width: 19rem;
+        height: 18rem;
+
+        #men-images {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+
+        #woman {
+            align-self: center;
+        }
+        
+        #man-no-glasses {
+            height: 8rem;
+            width: 8rem;
+        }
+    }
 }

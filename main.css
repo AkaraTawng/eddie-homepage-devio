@@ -801,7 +801,8 @@ header {
 #team img {
   width: clamp(9rem, 6.8rem + 11vw, 20rem);
   height: clamp(9rem, 6.8rem + 11vw, 20rem);
-  border-radius: 8px;
+  border-radius: 15px;
+  border-radius: clamp(0.938rem, 0.813rem + 0.625vw, 1.563rem);
 }
 #team #team-flex-container {
   display: flex;

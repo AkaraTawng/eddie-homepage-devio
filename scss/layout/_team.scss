@@ -14,7 +14,6 @@
         padding-right: 4rem;
         @include tablet {
             align-self: center;
-            // padding-right: 11rem;
             padding-right: clamp(5rem, 0.6rem + 22vw, 27rem);
             padding-left: clamp(0rem, -1rem + 5vw, 5rem);
         }
@@ -41,21 +40,17 @@
             font-size: clamp(0.7rem, 0.58rem + 0.6vw, 1.3rem);
         }
     }
-   
 
     img {
-    //  width:9rem;
-    //  height:9rem;
      width: clamp(9rem, 6.8rem + 11vw, 20rem);
      height: clamp(9rem, 6.8rem + 11vw, 20rem);
-     border-radius: 8px;
+     border-radius: 15px;
+     border-radius: clamp(0.938rem, 0.813rem + 0.625vw, 1.563rem);
     }
 
     #team-flex-container {
         display: flex;
         justify-content: space-around;
-        // width: 19rem;
-        // height: 18rem;
         width: clamp(19rem, 14.2rem + 24vw, 43rem);
         height: clamp(18rem, 13.6rem + 22vw, 40rem);
 

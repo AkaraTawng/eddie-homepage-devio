@@ -34,12 +34,14 @@
     .portfolio-item-img-caption {
         color: $font-accent-grey-light;
         font-size: .7rem;
+        font-size: clamp(0.7rem, 0.6rem + 0.5vw, 1.2rem);
     }
 
     .portfolio-item-title {
         color: $font-main-dark-black;
         font-weight: 500;
         font-size: 1.1rem;
+        font-size: clamp(1.1rem, 0.96rem + 0.7vw, 1.8rem);
     }
 
         iconify-icon {

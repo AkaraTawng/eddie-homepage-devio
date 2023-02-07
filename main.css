@@ -764,6 +764,7 @@ header {
 @media screen and (min-width: 1280px) {
   #team {
     flex-direction: row;
+    margin-top: 8rem;
   }
 }
 #team #team-text-content {
@@ -773,10 +774,13 @@ header {
 @media screen and (min-width: 760px) {
   #team #team-text-content {
     align-self: center;
+    padding-right: clamp(5rem, 0.6rem + 22vw, 27rem);
+    padding-left: clamp(0rem, -1rem + 5vw, 5rem);
   }
 }
 #team #team-text-content h1 {
   font-size: 0.7rem;
+  font-size: clamp(0.7rem, 0.6rem + 0.5vw, 1.2rem);
   color: #EB5757;
   font-weight: 500;
   padding-bottom: 4%;
@@ -785,20 +789,23 @@ header {
   color: #333333;
   font-weight: 500;
   padding-bottom: 4%;
+  font-size: 1.5rem;
+  font-size: clamp(1.5rem, 1.36rem + 0.7vw, 2.2rem);
 }
 #team #team-text-content p {
   font-size: 0.7rem;
+  font-size: clamp(0.7rem, 0.58rem + 0.6vw, 1.3rem);
 }
 #team img {
-  width: 9rem;
-  height: 9rem;
+  width: clamp(9rem, 6.8rem + 11vw, 20rem);
+  height: clamp(9rem, 6.8rem + 11vw, 20rem);
   border-radius: 8px;
 }
 #team #team-flex-container {
   display: flex;
   justify-content: space-around;
-  width: 19rem;
-  height: 18rem;
+  width: clamp(19rem, 14.2rem + 24vw, 43rem);
+  height: clamp(18rem, 13.6rem + 22vw, 40rem);
 }
 #team #team-flex-container #men-images {
   display: flex;
@@ -811,4 +818,9 @@ header {
 #team #team-flex-container #man-no-glasses {
   height: 8rem;
   width: 8rem;
+  height: clamp(8rem, 6.4rem + 8vw, 16rem);
+  width: clamp(8rem, 6.4rem + 8vw, 16rem);
+}
+#team #team-flex-container #man-glasses {
+  width: clamp(9rem, 7rem + 10vw, 19rem);
 }/*# sourceMappingURL=main.css.map */

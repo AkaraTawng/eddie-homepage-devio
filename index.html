@@ -8,8 +8,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@800&family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">    
     <link rel="stylesheet" href="main.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
-    <script src="app.js" defer></script>
+    <script src="app.js" type="module" defer></script>
     <title>Eddie Homepage</title>
 </head>
 <body>
@@ -77,7 +80,7 @@
             <h1>We offer high <br/> demand services </h1>
 
             <div id="service-cards-outer-container">
-                <div class="service-card-outer-container">
+                <div class="service-card-outer-container animate__animated">
                     <div class="service-card-icon-container uiuxdesign">
                         <iconify-icon class="service-card-icon" icon="mdi:pencil" style="color: white;"></iconify-icon>
                     </div>
@@ -86,7 +89,7 @@
                     <button class="service-card-button">Get Started</button>
                 </div>
     
-                <div class="service-card-outer-container">
+                <div class="service-card-outer-container animate__animated ">
                     <div class="service-card-icon-container frontend">
                         <iconify-icon icon="material-symbols:code" style="color: white;"></iconify-icon>
                     </div>
@@ -95,8 +98,8 @@
                     <button class="service-card-button">Get Started</button>
                 </div>
     
-                <div class="service-card-outer-container">
-                    <div class="service-card-icon-container backend    " id="back-end">
+                <div class="service-card-outer-container animate__animated">
+                    <div class="service-card-icon-container" id="back-end">
                         <iconify-icon icon="ic:round-storage" style="color: white;"></iconify-icon>
                     </div>
                     <h2 class="service-card-title">Back End</h2>

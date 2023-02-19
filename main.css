@@ -464,6 +464,7 @@ header {
 }
 #hero #hero-email-input-container button {
   position: absolute;
+  cursor: pointer;
   right: 0.2rem;
   width: clamp(4rem, 3.8rem + 1vw, 5rem);
   background-color: #2D9CDB;
@@ -471,6 +472,9 @@ header {
   border: none;
   color: white;
   height: clamp(2.1rem, 2.04rem + 0.3vw, 2.4rem);
+}
+#hero #hero-email-input-container button:hover {
+  background-color: #59b1e2;
 }
 #hero label {
   color: #828282;

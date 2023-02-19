@@ -37,9 +37,13 @@
     
         button {
             position: absolute;
+            cursor: pointer;
             right: .2rem;
             width: clamp(4rem, 3.8rem + 1vw, 5rem);
             background-color: $button-blue;
+            &:hover {
+                background-color: lighten($button-blue, 10%);
+            }
             border-radius: 8px;
             border: none;
             color: white;

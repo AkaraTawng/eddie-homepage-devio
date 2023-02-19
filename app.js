@@ -10,15 +10,18 @@ let target = document.querySelectorAll('.service-card-outer-container');
 
 let observer = new IntersectionObserver((entries) => {
 
-    entries.forEach(entry => {
-        entry.target.classList.toggle('animate__fadeInUp', entry.isIntersecting)
-        if(entry.isIntersecting) observer.unobserve(entry.target)
+    entries.forEach((entry, index) => {
+        setTimeout(() => {
+            entry.target.classList.toggle('animate__fadeInUpBig', entry.isIntersecting)
+            if(entry.isIntersecting) observer.unobserve(entry.target)
+        }, 200 * (index + 1));
+      
     })
   console.log(entries);
 }, 
 {
     threshold: 0,
-    // rootMargin: "-100px",
+    rootMargin: "140px",
 }); 
 
 target.forEach(target => {

@@ -61,3 +61,16 @@ portfolioItemsEven.forEach(portfolioItem => {
     portfolioItemsEvenObserver.observe(portfolioItem);
 });
 
+const portfolioItemsOddObserver = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        if(!entry.isIntersecting) return;
+        console.log(entry)
+        entry.target.classList.add('animate__slideInLeft');
+        portfolioItemsOddObserver.unobserve(entry.target);
+    })
+}, );
+
+portfolioItemsOdd.forEach(portfolioItem => {
+    portfolioItemsOddObserver.observe(portfolioItem);
+});
+

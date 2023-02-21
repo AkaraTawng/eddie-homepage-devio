@@ -10,6 +10,9 @@ const largeScreenQuery = window.matchMedia("(min-width: 1280px)");
 const heroEmailContactContainer = document.querySelectorAll('#hero-email-contact-container');
 const portfolioItemsEven = document.querySelectorAll(".portfolio-item-container.even");
 const portfolioItemsOdd = document.querySelectorAll(".portfolio-item-container.odd");
+const teamWomanImage = document.querySelector('#woman');
+const teamManNoGlassesImage = document.querySelector('#man-no-glasses');
+const teamManGlassesImage = document.querySelector('#man-glasses');
 
 /* IO is defaulting to 'isIntersecting: true' and intersectionRatio: 1'. Find way to default to 'isIntersecting: false' and intersectionRatio: 0' */
 if(largeScreenQuery.matches){
@@ -75,3 +78,30 @@ portfolioItemsOdd.forEach(portfolioItem => {
 });
 }
 
+//Team section Intersection Observer scroll animations
+const teamManNoGlassesObserver = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        if(!entry.isIntersecting) return;
+        entry.target.classList.add('animate__slideInRight');
+    })
+})
+
+teamManNoGlassesObserver.observe(teamManNoGlassesImage);
+
+const teamWomanObserver = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        if(!entry.isIntersecting) return;
+        entry.target.classList.add('animate__slideInLeft');
+    })
+})
+
+teamWomanObserver.observe(teamWomanImage);
+
+const teamManGlassesObserver = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        if(!entry.isIntersecting) return;
+        entry.target.classList.add('animate__slideInRight');
+    })
+})
+
+teamManGlassesObserver.observe(teamManGlassesImage);

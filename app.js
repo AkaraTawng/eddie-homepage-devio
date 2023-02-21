@@ -37,13 +37,11 @@ if(largeScreenQuery.matches){
             entry.target.classList.toggle('animate__fadeInUpBig', entry.isIntersecting)
             if(entry.isIntersecting) serviceCardsObserver.unobserve(entry.target)
         }, 300 * (index + 1));
-      
     })
 }, 
 {
     root: null,
     threshold: 0,
-    rootMargin: "150px",
 }); 
 
 serviceCards.forEach(serviceCard => {

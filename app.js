@@ -13,6 +13,7 @@ const portfolioItemsOdd = document.querySelectorAll(".portfolio-item-container.o
 const teamWomanImage = document.querySelector('#woman');
 const teamManNoGlassesImage = document.querySelector('#man-no-glasses');
 const teamManGlassesImage = document.querySelector('#man-glasses');
+const teamTextContent = document.querySelector('#team-text-content');
 
 /* IO is defaulting to 'isIntersecting: true' and intersectionRatio: 1'. Find way to default to 'isIntersecting: false' and intersectionRatio: 0' */
 if(largeScreenQuery.matches){
@@ -105,3 +106,18 @@ const teamManGlassesObserver = new IntersectionObserver(entries => {
 })
 
 teamManGlassesObserver.observe(teamManGlassesImage);
+
+const teamTextContentObserver = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        if(!entry.isIntersecting) {
+            entry.target.style.opacity = 0;
+        } else {
+              entry.target.style.opacity = 1;
+        entry.target.classList.add('animate__flipInY');
+        }
+    });
+}, {
+    threshold: 0.9
+});
+
+teamTextContentObserver.observe(teamTextContent);

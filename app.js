@@ -14,6 +14,8 @@ const teamWomanImage = document.querySelector('#woman');
 const teamManNoGlassesImage = document.querySelector('#man-no-glasses');
 const teamManGlassesImage = document.querySelector('#man-glasses');
 const teamTextContent = document.querySelector('#team-text-content');
+const testimonialText = document.querySelector('#testimonial-text');
+const testimonialImage = document.querySelector('#testimonials-image-content-flex-container');
 
 /* IO is defaulting to 'isIntersecting: true' and intersectionRatio: 1'. Find way to default to 'isIntersecting: false' and intersectionRatio: 0' */
 if(largeScreenQuery.matches){
@@ -84,6 +86,7 @@ const teamManNoGlassesObserver = new IntersectionObserver(entries => {
     entries.forEach(entry => {
         if(!entry.isIntersecting) return;
         entry.target.classList.add('animate__slideInRight');
+        teamManNoGlassesObserver.unobserve(entry.target);
     })
 })
 
@@ -93,6 +96,7 @@ const teamWomanObserver = new IntersectionObserver(entries => {
     entries.forEach(entry => {
         if(!entry.isIntersecting) return;
         entry.target.classList.add('animate__slideInLeft');
+        teamWomanObserver.unobserve(entry.target);
     })
 })
 
@@ -102,6 +106,7 @@ const teamManGlassesObserver = new IntersectionObserver(entries => {
     entries.forEach(entry => {
         if(!entry.isIntersecting) return;
         entry.target.classList.add('animate__slideInRight');
+        teamManGlassesObserver.unobserve(entry.target);
     })
 })
 
@@ -112,8 +117,9 @@ const teamTextContentObserver = new IntersectionObserver(entries => {
         if(!entry.isIntersecting) {
             entry.target.style.opacity = 0;
         } else {
-              entry.target.style.opacity = 1;
-        entry.target.classList.add('animate__flipInY');
+            entry.target.style.opacity = 1;
+            entry.target.classList.add('animate__flipInY');
+            teamTextContentObserver.unobserve(entry.target);
         }
     });
 }, {
@@ -121,3 +127,23 @@ const teamTextContentObserver = new IntersectionObserver(entries => {
 });
 
 teamTextContentObserver.observe(teamTextContent);
+
+const testimonialParagraphObserver = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        if(!entry.isIntersecting) return;
+        entry.target.classList.add('animate__slideInRight');
+    });
+}, {
+    threshold: 0.1
+});
+
+testimonialParagraphObserver.observe(testimonialText);
+
+const testimonialImageObserver = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        if(!entry.isIntersecting) return;
+        entry.target.classList.add('animate__slideInLeft');
+    });
+});
+
+testimonialImageObserver.observe(testimonialImage);

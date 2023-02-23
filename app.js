@@ -17,6 +17,14 @@ const teamTextContent = document.querySelector('#team-text-content');
 const testimonialText = document.querySelector('#testimonial-text');
 const testimonialImage = document.querySelector('#testimonials-image-content-flex-container');
 
+menuIcons.forEach(menuIcon => {
+    menuIcon.onclick = function(){
+        menuBox.classList.toggle('open-menu');
+        menuOpen.classList.toggle('open')
+        menuClose.classList.toggle('open')
+    }
+});
+
 /* IO is defaulting to 'isIntersecting: true' and intersectionRatio: 1'. Find way to default to 'isIntersecting: false' and intersectionRatio: 0' */
 if(largeScreenQuery.matches){
     //hero join email left slide in

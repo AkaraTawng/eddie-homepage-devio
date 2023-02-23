@@ -16,14 +16,17 @@ const teamTextContent = document.querySelector('#team-text-content');
 const testimonialText = document.querySelector('#testimonial-text');
 const testimonialImage = document.querySelector('#testimonials-image-content-flex-container');
 const desktopNavTitleContainer = document.querySelector('#desktop-nav');
+const heroTitle = document.querySelector('#title');
 
-setTimeout(() => {
-    .classList.add('animate__zoomInDown');
-}, 100);
 
+heroTitle.classList.add('animate__zoomInDown');
+
+desktopNavTitleContainer.style.opacity = '0'
 setTimeout(() => {
+    desktopNavTitleContainer.style.opacity = '1'
     desktopNavTitleContainer.classList.add('animate__zoomInDown');
-}, 100);
+}, 400);
+
 menuIcons.forEach(menuIcon => {
     menuIcon.onclick = function(){
         menuBox.classList.toggle('open-menu');

@@ -15,7 +15,17 @@ const teamManGlassesImage = document.querySelector('#man-glasses');
 const teamTextContent = document.querySelector('#team-text-content');
 const testimonialText = document.querySelector('#testimonial-text');
 const testimonialImage = document.querySelector('#testimonials-image-content-flex-container');
+const desktopNavTitleContainer = document.querySelector('#desktop-nav');
+const heroTitle = document.querySelector('#title');
 
+
+heroTitle.classList.add('animate__zoomInDown');
+
+desktopNavTitleContainer.style.opacity = '0'
+setTimeout(() => {
+    desktopNavTitleContainer.style.opacity = '1'
+    desktopNavTitleContainer.classList.add('animate__zoomInDown');
+}, 400);
 
 menuIcons.forEach(menuIcon => {
     menuIcon.onclick = function(){
@@ -25,11 +35,8 @@ menuIcons.forEach(menuIcon => {
     }
 });
 
-/* IO is defaulting to 'isIntersecting: true' and intersectionRatio: 1'. Find way to default to 'isIntersecting: false' and intersectionRatio: 0' */
-if(largeScreenQuery.matches){
-    
- 
 
+if(largeScreenQuery.matches){
     //service cards scroll staggered slide in up animation
     let serviceCardsObserver = new IntersectionObserver((entries) => {
     entries.forEach((entry, index) => {
@@ -40,8 +47,8 @@ if(largeScreenQuery.matches){
     })
 }, 
 {
-    root: null,
     threshold: 0,
+    rootMargin: '-40px 0px 0px 0px'
 }); 
 
 serviceCards.forEach(serviceCard => {

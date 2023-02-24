@@ -47,8 +47,8 @@ if(largeScreenQuery.matches){
     })
 }, 
 {
-    root: null,
     threshold: 0,
+    rootMargin: '-40px 0px 0px 0px'
 }); 
 
 serviceCards.forEach(serviceCard => {

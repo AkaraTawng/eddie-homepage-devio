@@ -45,7 +45,10 @@ I developed this portfolio page as a submission to a [DevChallenges](https://dev
 ![fully responsive ui gif](./gifs/readme-responsive-ui.gif)
 
 ## Scroll animations implemented with JavaScript's Intersection Observer API
-![fully responsive ui gif](./gifs/readme-scroll-animations.gif)
+![scroll animations ui gif](./gifs/readme-scroll-animations.gif)
+
+## Custom built hamburger menu
+![hamburger menu ui gif](./gifs/readme-hamburger-menu.gif)
 
 ## How To Use
 

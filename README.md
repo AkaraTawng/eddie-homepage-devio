@@ -6,11 +6,11 @@
 
 <div align="center">
   <h3>
-    <a href="[https://chris-chamberlain-portfolio.netlify.app/](https://eddie-homepage.netlify.app/)">
+    <a href="https://eddie-homepage.netlify.app/">
       Site
     </a>
     <span> | </span>
-    <a href="[https://devchallenges.io/challenges/5ZnOYsSXM24JWnCsNFlt](https://devchallenges.io/challenges/xobQBuf8zWWmiYMIAZe0)">
+    <a href="https://devchallenges.io/challenges/xobQBuf8zWWmiYMIAZe0">
       Challenge
     </a>
   </h3>
